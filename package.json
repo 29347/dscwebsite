@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://29347.github.io/pccdatascienceclub",
+  "homepage": "https://pccdsc.us",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
