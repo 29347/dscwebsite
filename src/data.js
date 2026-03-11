@@ -14,16 +14,7 @@ export const stats = [
 // To add an event: copy one block, paste it, and fill in the details.
 // To remove an event: delete its block.
 export const events = [
-  {
-    month: 'Mar',
-    day: '9',
-    dayOfWeek: 'MONDAY',
-    title: 'Introduction to Data Science',
-    desc: 'Learn how to query data and manage databases. No prior experience required.',
-    time: '12:00 PM – 1:00 PM',
-    location: 'Room R-211',
-    signupUrl: '',  // paste a sign-up link here, or leave empty to hide the button
-  },
+  
   {
     month: 'Mar',
     day: '16',
@@ -77,6 +68,7 @@ export const team = [
     role: 'Advisor',
     bio: 'Professor Erin Shaw is the advisor of the data science club.',
     photo: '',
+    linkedin: '',  // paste a LinkedIn profile URL here, or leave empty to hide the button
   },
   {
     name: 'Nyan Lin Thura',
@@ -84,6 +76,7 @@ export const team = [
     role: 'President',
     bio: 'Leading the club with a passion for ML and community building.',
     photo: '',   // paste a photo URL here, or leave empty to show initials
+    linkedin: '',
   },
   {
     name: 'Lillian Keshishian',
@@ -91,13 +84,15 @@ export const team = [
     role: 'Vice President',
     bio: 'Coordinates events and workshops. Loves data visualization.',
     photo: '',
+    linkedin: '',
   },
   {
-    name: 'Something Chow',
+    name: 'Kayley Chow',
     initials: 'SC',
     role: 'Social Media Manager',
     bio: 'Handles outreach, Instagram, and recruiting new members.',
     photo: '',
+    linkedin: '',
   },
   {
     name: 'Something Melody',
@@ -105,6 +100,7 @@ export const team = [
     role: 'Social Media Manager',
     bio: 'Handles outreach, Instagram, and recruiting new members.',
     photo: '',
+    linkedin: '',
   },
   {
     name: 'Thant Kyi Thu(Alex)',
@@ -112,8 +108,9 @@ export const team = [
     role: 'Tech Lead',
     bio: 'I did this website.',
     photo: '',
+    linkedin: '',
   },
- 
+
 ]
 
 // --- SOCIAL LINKS ---

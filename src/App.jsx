@@ -247,6 +247,17 @@ function Team() {
                   {m.role}
                 </span>
                 <p className="text-slate-400 text-sm leading-relaxed">{m.bio}</p>
+                {m.linkedin && (
+                  <a
+                    href={m.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 mt-4 text-xs font-semibold text-blue-400 hover:text-blue-300 transition-colors"
+                  >
+                    <i className="fab fa-linkedin text-base"></i>
+                    LinkedIn
+                  </a>
+                )}
               </div>
             </div>
           ))}
