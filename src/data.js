@@ -6,7 +6,7 @@
 export const stats = [
   { value: '10+', label: 'Active Members' },
   { value: '12+', label: 'Annual Workshops' },
-  //{ value: '5',   label: 'Active Projects' },
+  { value: '2',   label: 'Active Projects' },
   { value: 'PCC', label: 'Official Club' },
 ]
 
@@ -95,10 +95,10 @@ export const team = [
     linkedin: '',
   },
   {
-    name: 'Something Melody',
-    initials: 'SM',
-    role: 'Social Media Manager',
-    bio: 'Handles outreach, Instagram, and recruiting new members.',
+    name: 'Daniel Rios',
+    initials: 'DR',
+    role: 'Treasurer',
+    bio: 'Handles the budget.',
     photo: '',
     linkedin: '',
   },
